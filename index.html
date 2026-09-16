@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kamu, Dari Lubuk Hatiku yang Terdalam</title>
+  <meta name="description" content="Surat permohonan maaf dan ungkapan rasa yang tulus untukmu di seberang sana. Jarak mungkin memisahkan kita, tapi hatiku selalu ada untukmu.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans, Playfair Display, Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Canvas Floating Hearts Background -->
+  <canvas id="heartCanvas"></canvas>
+
+  <!-- Background Audio File -->
+  <audio id="bgMusic" src="lagu.mp3" preload="auto" loop autoplay></audio>
+
+  <!-- Floating Audio & Navigation Bar -->
+  <header class="top-nav">
+    <div class="nav-brand">
+      <span class="pulse-dot"></span>
+      <span class="nav-text">Untuk Sayangku di Seberang Sana</span>
+    </div>
+    <div class="nav-actions">
+      <button id="musicToggleBtn" class="btn-music" aria-label="Nyalakan Musik Latar" title="Nyalakan Musik Lagu">
+        <span class="music-icon" id="musicIcon">🎵</span>
+        <span class="music-label" id="musicLabel">Putar Lagu</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-container">
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="badge-icon">🕊️</span>
+          <span>Sebuah Pesan yang Terkirim Melintasi Jarak</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Maafkan Aku ya, Sayang...
+          <span class="highlight-script">Hatiku Selalu Bermuara di Kamu</span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          Ribuan kilometer mungkin merentang di antara kita hari ini, tapi rasa bersalah dan rinduku jauh lebih besar dari angka apa pun di peta. Aku ingin bicara jujur dari hati ke hati.
+        </p>
+
+        <!-- Visual LDR Connection Component -->
+        <div class="ldr-map-visual" aria-hidden="true">
+          <div class="location-node node-left">
+            <div class="node-pulse"></div>
+            <div class="node-icon">📍</div>
+            <div class="node-info">
+              <span class="node-title">Aku di Sini</span>
+              <span class="node-status">Menyesal & Merindukanmu</span>
+            </div>
+          </div>
+
+          <div class="flight-track">
+            <svg class="track-svg" viewBox="0 0 400 90" preserveAspectRatio="none">
+              <path class="track-path-bg" d="M 20,65 Q 200,-15 380,65" />
+              <path class="track-path-active" d="M 20,65 Q 200,-15 380,65" />
+            </svg>
+            <div class="paper-plane" id="paperPlane">✈️</div>
+            <div class="heart-pulse-center">❤️</div>
+            <span class="distance-badge">Jarak Fisik Bukan Alasan Renggang</span>
+          </div>
+
+          <div class="location-node node-right">
+            <div class="node-pulse"></div>
+            <div class="node-icon">🏡</div>
+            <div class="node-info">
+              <span class="node-title">Kamu di Sana</span>
+              <span class="node-status">Rumah & Tujuanku Pulang</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-action-row">
+          <a href="#letter-section" class="btn-primary-hero">
+            <span>Buka Surat Maafku</span>
+            <span class="arrow-down">💌</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SURAT PENYESALAN & UNGKAPAN HATI -->
+    <section class="letter-section" id="letter-section">
+      <div class="section-header">
+        <span class="section-tag">Ungkapan Hati & Penyesalan</span>
+        <h2 class="section-title">Surat Kecil dari Kejauhan</h2>
+        <p class="section-desc">Kata-kata yang ingin kubisikkan langsung jika saja aku ada di depanmu saat ini.</p>
+      </div>
+
+      <div class="letter-wrapper">
+        <div class="letter-paper">
+          <div class="letter-stamp">
+            <span class="stamp-post">LDR AIR MAIL</span>
+            <span class="stamp-heart">💌</span>
+            <span class="stamp-date">Selamanya Untukmu</span>
+          </div>
+
+          <div class="letter-greeting">
+            Sayangku tercinta,
+          </div>
+
+          <div class="letter-body">
+            <p>
+              Pertama-tama, dari lubuk hatiku yang paling dalam, <strong>aku minta maaf yang sebesar-besarnya</strong>. Maaf kalau sikapku kemarin, kata-kataku, atau caraku merespons sempat membuat hatimu terluka, kecewa, atau merasa sendirian.
+            </p>
+            <p>
+              Hubungan jarak jauh ini mengajarkanku banyak hal, tapi kadang jarak juga menjadi celah yang kejam. Saat kita hanya bisa bertukar kabar lewat layar kaca ponsel, <em>aku sering lupa bahwa teks tidak memiliki intonasi dan nada bicara</em>. Saat kamu butuh pelukan hangat untuk menenangkan harimu, aku justru tidak ada di sampingmu untuk menggenggam tanganmu.
+            </p>
+            <p>
+              Aku sadar sepenuhnya, kekurangan terbesarku adalah kadang kurang peka dan kurang sabar dalam mendengar keluh kesahmu. Rasa lelah dan ego sesaat membuatku lupa betapa berharganya kamu dan betapa hebatnya perjuanganmu mempertahankan kita sampai hari ini.
+            </p>
+            
+            <div class="quote-box">
+              <span class="quote-symbol">“</span>
+              <p class="quote-text">
+                Jarak hanya menguji seberapa jauh cinta bisa melangkah, bukan seberapa cepat kita saling menyerah. Dan aku tidak pernah berniat menyerah pada kita.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="letter-sign-block">
+            <p class="sign-note">Dengan segenap cinta dan penyesalan,</p>
+            <p class="sign-name">Pasanganmu yang Selalu Menyayangimu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- INTERACTIVE DECISION SECTION -->
+    <section class="decision-section" id="decision">
+      <div class="decision-container">
+        <div class="decision-badge">
+          <span>Tangan Ini Selalu Terbuka Menunggumu</span>
+        </div>
+        
+        <h2 class="decision-title">Maukah Kamu Membuka Lembaran Baru Bersamaku?</h2>
+        
+        <p class="decision-desc">
+          Aku tidak bisa memutar waktu kemarin, tapi aku berjanji akan merawat hari esok dengan jauh lebih baik. Setiap keputusan ada di hatimu, dan aku akan selalu menghargai perasaanmu.
+        </p>
+
+        <div class="decision-buttons">
+          <button class="btn-decision btn-forgive" id="btnForgive" data-choice="forgive">
+            <span class="btn-icon">🌸</span>
+            <span class="btn-title">Aku Maafkan</span>
+            <span class="btn-sub">Beri kesempatan berdua tersenyum lagi</span>
+          </button>
+
+          <button class="btn-decision btn-fight" id="btnFight" data-choice="fight">
+            <span class="btn-icon">💫</span>
+            <span class="btn-title">Ayo Berjuang Lagi</span>
+            <span class="btn-sub">Kalahkan jarak bersama-sama</span>
+          </button>
+
+          <!-- Playful escape / pout button -->
+          <button class="btn-decision-subtle" id="btnPout">
+            <span>Masih Mau Ngambek Dikit 🥺</span>
+          </button>
+        </div>
+
+        <div id="poutPleaBox" class="pout-plea-box hidden">
+          <p>“Boleh kok ngambek sebentar sayang, aku bakal sabar nungguin dan tetap sayang kamu seluas samudra ini...” 💕</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <div class="footer-heart">❤️</div>
+      <p class="footer-quote">
+        “Karena sejauh apa pun jaraknya, hatiku tetap bermuara di kamu.”
+      </p>
+      <p class="footer-copy">
+        Dibuat dengan segenap cinta, rindu, dan penyesalan tulus &bull; Untuk belahan jiwaku
+      </p>
+    </footer>
+  </main>
+
+  <!-- INTERACTIVE MODAL POP-UP -->
+  <div class="modal-overlay" id="responseModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-particles" id="modalParticles"></div>
+      
+      <button class="modal-close" id="modalCloseBtn" aria-label="Tutup Jendela">&times;</button>
+      
+      <div class="modal-header-icon" id="modalEmoji">🥰</div>
+      
+      <h3 class="modal-title" id="modalTitle">Terima Kasih, Sayangku!</h3>
+      
+      <div class="modal-body-text" id="modalMessage">
+        <!-- Message will be dynamically injected based on button clicked -->
+      </div>
+
+      <div class="modal-sweet-box">
+        <div class="sweet-box-icon">💌</div>
+        <p class="sweet-box-text" id="modalSweetQuote">
+          "Pelukan virtual ini kukirimkan seerat mungkin melintasi ribuan mil, langsung ke dalam hatimu."
+        </p>
+      </div>
+
+      <div class="modal-footer-actions">
+        <button class="btn-modal-action" id="modalAcceptBtn">
+          <span>Kirim Peluk Hangat Balik</span>
+          <span>🫂❤️</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
